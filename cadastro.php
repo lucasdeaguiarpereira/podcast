@@ -26,16 +26,8 @@
 	 	<div class="col-md-6 col-md-offset-3">
 			<form action="cadastrar.php" method="post">
 			    <div class="form-group">
-			        <label class="control-label" for="nome">Nome:</label>
-			        <input class="form-control" type="text" id="nome" name="nome" />
-			    </div>
-			    <div class="form-group">
 			        <label class="control-label" for="email">E-mail:</label>
 			        <input class="form-control" type="email" id="email" name="email" />
-			    </div>
-			    <div class="form-group">
-			        <label class="control-label" for="data">Data de Nascimento:</label>
-			        <input class="form-control" type="date" id="data" name="data" />
 			    </div>
 			    <div class="form-group">
 			        <label class="control-label" for="senha">Senha:</label>

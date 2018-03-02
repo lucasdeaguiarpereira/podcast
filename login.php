@@ -5,22 +5,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>BAUC</title>
+  <title>Login</title>
 
-  <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-3.3.7.min.css">
-  <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="../libs/normalize/css/normalize-7.0.0.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-3.3.7.min.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="libs/normalize/css/normalize-7.0.0.css">
+  <link rel="stylesheet" href="libs/main.css">
+
 </head>
 <body>
 <div class="container">
 	 <div class="header">
-	   <h1>BAUC - Login Usuário</h1>
-	   <nav>
-	    <ul>
-	      <li><a href="cadastro.php">Cadastro</a></li>
-	      <li><a href="login.php">Login</a></li>
-	    </ul>
-	   </nav>
+	   <h1>Login</h1>
 	 </div>
 	 <div class="row">
 	 	<div class="col-md-6 col-md-offset-3">
@@ -41,8 +37,8 @@
 	 </div>
 </div>
 
-<script src="../libs/bootstrap/js/bootstrap-3.3.7.min.js"></script>
-<script src="../libs/bootstrap/js/npm.js"></script>
-<script src="../libs/jquery/js/jquery-3.2.1.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap-3.3.7.min.js"></script>
+<script src="libs/bootstrap/js/npm.js"></script>
+<script src="libs/jquery/js/jquery-3.2.1.min.js"></script>
 </body>
 </html>
