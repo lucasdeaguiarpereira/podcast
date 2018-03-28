@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* ESTILIZANDO TABELAS DE RAMAIS */
+table tbody tr td {
+  font-family: 'Lato light',sans-serif;
+  font-size: 1.1em;
+  height: 2.5em;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}

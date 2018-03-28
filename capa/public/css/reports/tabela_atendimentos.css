@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.jumbotron {
+  padding: 15px;
+}
+
+.espaco {
+  margin-left: 10px;
+}
+
+#pesquisa {
+  width: 250px;
+}
+
+.radio-inline {
+  margin: 0 0 5px;
+}
+
+table {
+  font-family: 'Lato light',sans-serif;
+  font-size: 0.8em;  
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h2 {
+  margin: 3% 0 3% 0;
+}
+
+table {
+  font-family: 'Lato Light', sans-serif;
+}
+
+table tbody tr td {      
+  font-size: 1em;
+  height: 3.0em;
+  line-height: 1%;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}

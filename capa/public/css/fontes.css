@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* --- Lato --- */
+@font-face {
+  font-family: 'Lato Black';
+  src: url('../fonts/lato/lato_black.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Black Italic';
+  src: url('../fonts/lato/lato_black_italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('../fonts/lato/lato_bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Bold Italic';
+  src: url('../fonts/lato/lato_bold_italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url('../fonts/lato/lato_hairline.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Hairline Italic';
+  src: url('../fonts/lato/lato_hairline_italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Italic';
+  src: url('../fonts/lato/lato_italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('../fonts/lato/lato_light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Light Italic';
+  src: url('../fonts/lato/lato_light_italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('../fonts/lato/lato_regular.ttf');
+}
+
+/* --- Museosans --- */
+@font-face {
+  font-family: 'Museosans';
+  src: url('../fonts/museosans/museosans.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 0';
+  src: url('../fonts/museosans/museosans_0.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 1';
+  src: url('../fonts/museosans/museosans_1.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 100 Italic';
+  src: url('../fonts/museosans/museosans_100_italic.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 100';
+  src: url('../fonts/museosans/museosans_100.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 300 Italic';
+  src: url('../fonts/museosans/museosans_300_italic.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 300';
+  src: url('../fonts/museosans/museosans_300.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 500 Italic';
+  src: url('../fonts/museosans/museosans_500_italic.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 700 Italic';
+  src: url('../fonts/museosans/museosans_700_italic.otf');
+}
+
+@font-face {
+  font-family: 'Museosans 900 Italic';
+  src: url('../fonts/museosans/museosans_900_italic.otf');
+}

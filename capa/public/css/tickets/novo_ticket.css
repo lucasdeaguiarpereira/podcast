@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#ticket {
+  font-family: 'Lato Bold', sans-serif;
+}
+
+.panel-body {
+  padding: 24px;
+}
+
+.erro {
+  border: 2px solid red;
+}

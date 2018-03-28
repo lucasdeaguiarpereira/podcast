@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+a {
+  margin-left: 10px;
+}
+
+table tbody tr td {
+  font-family: 'Lato light',sans-serif;
+  font-size: 0.85em;  
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+}
+
+#tabela-suporte tbody tr td {
+  height: 1.5em; 
+}
+
+#tabela-suporte tbody tr td a {
+  font-weight: bold;
+}
+
+#tabela-externo tbody tr td {
+  height: 1.5em; 
+}
