@@ -10,10 +10,11 @@
   <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-3.3.7.min.css">
   <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="libs/normalize/css/normalize-7.0.0.css">
+  <link rel="stylesheet" href="libs/main.css">
 </head>
 <body>
 <div class="container">
-   <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -32,6 +33,12 @@
           <li class="active"><a href="textos.php">Textos<span class="sr-only">(current)</span></a></li>
           <li><a href="coments.php">Comentários</a></li>
         </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Digite aqui idiota">
+          </div>
+          <button type="submit" class="btn btn-default">Pesquisar</button>
+        </form>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuário <span class="caret"></span></a>
@@ -46,29 +53,11 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-	 <div class="row">
-	 	<div class="col-md-6 col-md-offset-3">
-	 		<h1 class="text-center">Cadastro</h1>
-			<form action="cadastrar.php" method="post">
-			   	<div class="form-group">
-			        <label class="control-label" for="nome">Nome:</label>
-			        <input class="form-control" type="text" id="nome" name="nome" />
-			    </div>
-			    <div class="form-group">
-			        <label class="control-label" for="email">E-mail:</label>
-			        <input class="form-control" type="email" id="email" name="email" />
-			    </div>
-			    <div class="form-group">
-			        <label class="control-label" for="senha">Senha:</label>
-			        <input class="form-control" type="password" id="senha" name="senha" />
-			    </div>
-			    <input class="btn btn-default" type="submit" name="enviar" value="Enviar">
-			</form>
-
-		</div>
-	 </div>
+  <h1 class="text-center">Comentários</h1>
+   <div class="row">
+    </div>
 </div>
-
+ 
 <script src="libs/jquery/js/jquery-3.2.1.min.js"></script>
 <script src="libs/bootstrap/js/bootstrap-3.3.7.min.js"></script>
 <script src="libs/bootstrap/js/npm.js"></script>

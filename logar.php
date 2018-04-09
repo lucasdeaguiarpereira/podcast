@@ -2,20 +2,24 @@
 	$email = $_POST['email'];
 	$senha = sha1($_POST['senha']);
 
-	require '../database/conexao.php';
+	require 'data/conexao.php';
 
-	$sql = mysqli_query($conexao,"SELECT email, senha FROM `usuario` WHERE email='$email'") or die("Erro");
+	$sql = mysqli_query($conexao,"SELECT * FROM `user` WHERE email='$email' AND senha='$senha'") or die("Erro");
 	$dados=mysqli_fetch_assoc($sql);
 
-	if(($dados['email']==$email)&&($dados['senha']==$senha))
+	
+	if($dados!=null)
 	{
-		echo "logado";
+		$_SESSION['login'] = $email;
+		$_SESSION['senha'] = $senha;
+		header('location:index.php');
 	}
-	else
-	{
-		echo "não logado";
-	}
-
+	else{
+    unset ($_SESSION['login']);
+    unset ($_SESSION['senha']);
+    header('location:login.php');
+     
+    }
 
 	      
 ?>
