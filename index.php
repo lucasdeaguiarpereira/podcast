@@ -53,10 +53,7 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  <?php
-    echo" Bem vindo $logado";
-    ?>
-    </td>
+  
   <h1 class="text-center">Podcasts</h1>
    <div class="row">
      <div class="col-md-4">
