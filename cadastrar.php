@@ -7,7 +7,8 @@
 
 
 
-	$sql = "INSERT INTO `user` (`id`, `nome`, `email`, `senha`) VALUES (NULL, '$nome', '$email', sha1('$senha'));"; 
+	$sql = "INSERT INTO `users` (`id`, `nome`, `email`, `senha`) VALUES ('', '$nome', '$email', sha1('$senha'));"; 
+
 	mysqli_query($conexao,$sql) or die("Erro ao tentar cadastrar registro");
 
 	$url = 'index.php';
