@@ -2,18 +2,15 @@ import React, {Component} from 'react';
 import Menu from './Header/Menu';
 
 class Header extends Component{
+    constructor(){
+        super();
+    }
+    
     render(){
-        const navLinks = this.props.navLinks;
-        const title = this.props.title;
-        const style = {
-            padding:'15px 15px 0px 15px'
-        }
-
         return(
             <header>
-                
-                <h1>{title}</h1>
-                <Menu />
+                <h1>{this.props.title}</h1>
+                <Menu links={this.props.links} />
             </header>
         );
     }

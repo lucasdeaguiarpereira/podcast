@@ -1,23 +1,24 @@
-import React, {Component} from 'react';
+import React  from 'react';
 
-class Home extends Component{
-    render(){
-        return(
-            <main>
+const Home = (props) => {
+    return(
+        <main>
+        
+            <h1>TITLE</h1>
+
+            <p className="lead" >
+            lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            Nunc mauris ligula, maximus
+            vel imperdiet a, vulputate non leo.
+            Pellentesque eget turpis vel mauris 
+            vehicula feugiat. Cras eu velit eros.
+            </p>
             
-                <h1>TITLE</h1>
+            <div className="line"></div>
 
-                <p className="lead" >
-                    Pseudoprogramador, proficiente em falar merda com a iniciativa de 
-                    subcelebridade da internet que faz a mesma merda todo santo dia.<br/>
-                    <u>Resultado</u>: Um site merda feito por um cara medíocre com um conteúdo ainda pior que esses dois somados.   
-                </p>
-                
-                <p className="line"></p>
-
-            </main>
-        );
-    }
+        </main>
+    );
 }
 
 export default Home;
