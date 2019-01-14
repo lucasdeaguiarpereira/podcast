@@ -14,9 +14,15 @@ const Layout = (props) => {
         {name:'Podcasts',url:'/podcasts'},
     ];
 
+    const blueStyle = {
+        borderBottom : "300px solid #698AF7",
+        borderRight : "320px solid transparent"
+    }
+
     return(
         <div className='container'>
-            <Triangle />
+            <Triangle stl={blueStyle} class={"triangle-blue"}/>
+            {/* <Triangle class={"triangle-black"}/> */}
 
             <Header title='Podcast do Pereirinha' links={links}/>
 

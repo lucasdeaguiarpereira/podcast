@@ -45,7 +45,7 @@ class Triangule extends Component{
 
     render(){
         return(
-            <div className="triangle-blue" style={this.state.style}></div>
+            <div className={this.props.class} style={this.state.style}></div>
         );
     }
 }
